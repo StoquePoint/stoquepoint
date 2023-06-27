@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+  }
+  
+  body {
+    background-color: #0d1f23;
+    display: flex;
+  }
+  
+  .logo {
+    margin-top: 50px;
+  }
+  
+  .logo img {
+    width: 80px;
+    padding-bottom: 20px;
+  }
+  
+  #vertical {
+    background-color: #2d4a53;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 300px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+  }
+  
+  .home img {
+    margin-bottom: 20px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .title {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #cadastro {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .inputs input {
+    width: 130%;
+    height: 50px;
+    border: 1px solid rgb(54, 54, 54);
+    margin-top: 2px;
+    border-radius: 10px;
+  }
+  .inputs :hover {
+    text-align: center;
+  }
+  .inputs ::placeholder {
+    color: black;
+    padding-left: 10px;
+  }
+  
+  .inputs button {
+    margin-left: 135px;
+    background-color: #2d4a53;
+    color: beige;
+    width: 60%;
+    height: 50px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+  }
+  button {
+margin-top: 10%;
+  color: beige;
+   }
+  
